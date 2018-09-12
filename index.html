@@ -31,7 +31,14 @@
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div class="brand">SIMENA RP</div>
     <div class="address-bar">93.170.123.133:1365</div>
 
@@ -128,6 +135,7 @@
                 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/8.png" alt="">
                 </div>
+		    <div class="fb-comments" data-href="https://simena-rp.github.io/" data-width="650" data-numposts="5"></div>
                 <div class="col-md-6">
                     <p>SIMENA RP  - это новый, уникальный проект в сфере SA:MP. Наша цель - добиться наивысшего уровня развития ролевой игры. </p>
                     <p>Креативный в своём роде сервер не имеющий аналогов! Здесь вы сможете погрузится в атмосферу полноценного RolePlay!</p>
